@@ -51,7 +51,6 @@ jobs:
           git clone https://github.com/yuos-bit/luci-app-openclash.git
           git clone https://github.com/rufengsuixing/luci-app-adguardhome.git
           git clone https://github.com/pymumu/luci-app-smartdns.git
-          git clone https://github.com/chongteng2017/luci-app-passwall.git
 
           sudo mkdir -p -m 777 /mnt/openwrt/bin /mnt/openwrt/build_dir/host /mnt/openwrt/build_dir/hostpkg /mnt/openwrt/dl /mnt/openwrt/feeds /mnt/openwrt/staging_dir
           ln -s /mnt/openwrt/bin ./bin
@@ -178,7 +177,6 @@ jobs:
           CONFIG_PACKAGE_luci-app-wol=y
           CONFIG_PACKAGE_luci-app-adguardhome=y
           CONFIG_PACKAGE_luci-app-smartdns=y
-          CONFIG_PACKAGE_luci-app-passwall=y
           EOF
 
           # LuCI主题:
