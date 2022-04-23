@@ -7,7 +7,7 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 #
 
-name: CHEN-X64-V2.0
+name: CHEN-X64-V2.1
 
 on:
   push:
